@@ -637,17 +637,7 @@ adj_table['AAPL'].plot()
 table.head()
 ```
 
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-    
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-    
-    .dataframe thead th {
-        text-align: right;
-    }
+
 
 ```python
 adj_table.head()
@@ -658,6 +648,10 @@ adj_table.head()
 table.groupby(['Ticker','Date'])['Adj Close'].mean().unstack(level=0).head()
 ```
 
+
+
+
+![数据分析详细讲解](https://yuansuixin.github.io/2017/10/15/pandas/)
 
 
 
